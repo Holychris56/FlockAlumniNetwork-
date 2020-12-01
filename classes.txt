@@ -1,0 +1,49 @@
+Flock User Class
+============
+userID
+Level [User (default), Admin, SuperAdmin]
+First Name
+Last Name
+Faculty [True/False]
+Grad Year (iff faculty == false: 19XX or 20XX)
+Current Occupation
+Current Location
+Email Address
+Facebook
+Instagram
+Twitter
+LinkedIn
+About Me (200 words max or so)
+ProfilePicture (.jpg - resized upon upload)
+
+
+Post Class
+============
+postID
+Author (userID)
+Datetime
+body
+image (1 image attachment allowed per post?)
+
+
+Events Class
+===========
+eventID
+Name
+DateStart
+DateEnd
+TimeStart
+TimeEnd
+TicketsRequired (True/false)
+OnSale (True/false)
+TicketPrice
+TicketsAvailable (integer)
+
+Item Class (for online shop)
+===========================
+itemID
+Name
+Description
+Price
+Sizing (True/false - true for a shirt, false for a water bottle)
+

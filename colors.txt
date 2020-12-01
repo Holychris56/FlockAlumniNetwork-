@@ -1,0 +1,9 @@
+Colors
+==================
+
+Burgundy  79212d
+
+Beige  fff4e0
+
+Gold	ffca21
+
