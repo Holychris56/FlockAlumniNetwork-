@@ -1,7 +1,7 @@
 <?php include_once('inc/header.php'); ?>
 <?php if (!isset($_SESSION['user'])){
-    // header('Location: login.php');
-    // exit;
+    header('Location: login.php');
+    exit;
 } ?>
 
 <div class="container">
@@ -101,7 +101,7 @@
                                 <img src="uploads/<?= $user['avatar'] ?>" height="40px" class="img-round" alt="">
                             </div>
                             <div class="post pl-2 w-100">
-                                <form action="#" method="post" id="comment-form">
+                                <form action="#" method="post" class="comment-form">
                                     <div class="row">
                                         <div class="form-group col-md-9">
                                             <input type="hidden" name="post_id" value="<?= $post_id ?>">
@@ -126,7 +126,7 @@
 
 <?php include_once('inc/footer.php'); ?>
 <script charset="utf-8">
-    $("#comment-form").on('submit',(e)=>{
+    $(".comment-form").on('submit',(e)=>{
         e.preventDefault();
         form_data = $(e.target).serialize();
         $this = $(e.target);
