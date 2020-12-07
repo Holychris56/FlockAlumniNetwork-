@@ -34,10 +34,10 @@ body,html{
                             <input type="password" name="password" class="form-control" placeholder="Password" required>
                         </div>
                         <div class="form-group">
-                            <input type="text" name="location" class="form-control" placeholder="Location" required>
+                            <input type="text" name="location" class="form-control" placeholder="Location">
                         </div>
                         <div class="form-group">
-                            <input type="number" name="year" class="form-control" placeholder="Graduation year" required>
+                            <input type="number" name="year" class="form-control" placeholder="Graduation year">
                         </div>
                         <div class="form-group">
                             <input type="submit" class="font-weight-bold btn primary-bg btn-block" value="Signup" name="register">
